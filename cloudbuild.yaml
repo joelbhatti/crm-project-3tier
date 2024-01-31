@@ -4,3 +4,5 @@ steps:
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/crm-project-412707/crm-project-3tier:$SHORT_SHA']
+
+
