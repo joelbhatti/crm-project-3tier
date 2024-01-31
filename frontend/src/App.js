@@ -77,10 +77,10 @@ class App extends React.Component {
 
     var csrftoken = this.getCookie('csrftoken')
 
-    var url = 'http://127.0.0.1:8000/api/task-create/'
-
+    // var url = 'http://127.0.0.1:8000/api/task-create/'
+var url = "https://crm-project-3tier-vgwsmkooea-uc.a.run.app/"
     if(this.state.editing == true){
-      url = `http://127.0.0.1:8000/api/task-update/${ this.state.activeItem.id}/`
+      url = `https://crm-project-3tier-vgwsmkooea-uc.a.run.app/api/task-update/${ this.state.activeItem.id}/`
       this.setState({
         editing:false
       })
