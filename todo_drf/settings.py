@@ -84,9 +84,13 @@ WSGI_APPLICATION = 'todo_drf.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'crm-db',
+        'USER': 'postgres',
+        'PASSWORD': '9slHd\qZf_IN-:bc',
+        'HOST': '34.67.206.253',
+        'PORT': '5632',
+       }
 }
 
 
