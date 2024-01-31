@@ -75,6 +75,8 @@ class App extends React.Component {
     e.preventDefault()
     console.log('ITEM:', this.state.activeItem)
 
+    console.log("Joel");
+
     var csrftoken = this.getCookie('csrftoken')
 
     // var url = 'http://127.0.0.1:8000/api/task-create/'
